@@ -11,7 +11,7 @@ export default function Breadcrumb({ items, className }: BreadcrumbProps) {
   return (
     <nav
       className={cn(
-        "w-full h-[56px] flex items-center text-base font-normal bg-[#ECECEC66] rounded-[16px] px-[32px]",
+        "w-full h-[56px] flex items-center text-xs md:text-base font-normal bg-[#ECECEC66] rounded-[16px] px-[32px]",
         className,
       )}
     >
